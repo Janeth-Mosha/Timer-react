@@ -1,0 +1,78 @@
+*{
+    background-color: gainsboro;
+   
+}
+.intro{
+    padding: 20px;
+    font-size: 20px;
+
+}
+.surface{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.btn-set{
+    background-color: brown;
+    margin-left: 20px;
+}
+#field{
+    padding: 15px;
+}
+.count{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+.countdown-min,.countdown-sec{
+    padding: 10px;
+    font-size: 40px;
+    font-weight: 350;
+}
+.container{
+   
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row;
+    justify-content: flex-end;
+   
+   
+}
+.time{
+    font-size: 25px;
+    padding-top: 20px;
+    
+}
+.btn-set:hover{
+    background-color: red;
+}
+.button-wrap{
+    display: flex;
+    align-items: center;
+    margin-top: 23px;
+}
+.button{
+    border: none;
+    border-radius: 20px;
+    padding: 10px 10px;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+
+}
+.btn-start{
+    background-color: rgb(39, 153, 10);
+    margin-right: 10px;
+   
+}
+.btn-start:hover{
+    background-color: rgb(47, 240, 47);
+}
+.btn-stop:hover{
+    background-color: red;
+}
+.btn-stop{
+    background-color: rgb(161, 11, 11);
+}
